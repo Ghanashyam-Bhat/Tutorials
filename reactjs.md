@@ -56,7 +56,7 @@ Remember to adjust the proxy configuration to match your specific backend server
 
 ### Directory Structure for react
 /src
-    /components
+    /components    ---> Static components that define layout and UI part of the app
         /Common
         Button.js
         Input.js
@@ -67,7 +67,7 @@ Remember to adjust the proxy configuration to match your specific backend server
         HomePage.js
         AboutPage.js
         ...
-    /containers
+    /containers  --> Combines State and Data with the UI
         /Home
         HomeContainer.js
         HomeStyles.css
