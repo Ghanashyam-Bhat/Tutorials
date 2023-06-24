@@ -55,7 +55,7 @@ Remember to adjust the proxy configuration to match your specific backend server
 
 
 ### Directory Structure for react
-    /src
+/src
     /components
         /Common
         Button.js
@@ -88,7 +88,7 @@ Remember to adjust the proxy configuration to match your specific backend server
         index.js
         homeReducer.js
         aboutReducer.js
-        /selectors
+        /selectors        ----> Stores functions for data transformation
         homeSelectors.js
         aboutSelectors.js
         /constants
@@ -107,8 +107,8 @@ Remember to adjust the proxy configuration to match your specific backend server
     App.test.js
     ...
 
-    /public
-    index.html
-    favicon.ico
-    ...
+/public
+index.html
+favicon.ico
+...
 
